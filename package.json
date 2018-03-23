@@ -1,0 +1,20 @@
+{
+  "name": "high-summary",
+  "version": "1.0.0",
+  "description": "Retrieve Main title, image and summary for an url",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandre Strzelewicz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Unitech/high-summary.git"
+  },
+  "dependencies": {
+    "lexrank": "^1.0.4",
+    "unfluff": "*",
+    "request": "*"
+  }
+}
