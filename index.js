@@ -12,6 +12,7 @@ function summarize(url, cb) {
 
     var content = unfluff(body);
 
+    if (!content.text) return cb(new Error('Cannot retrieve content'));
     lexrank.summarize(content.text, 5, (err, top, summary) => {
       if (err) return cb(err);
 
