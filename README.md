@@ -1,6 +1,14 @@
 
 # High Summary
 
+## Install
+
+```bash
+$ npm install high-summary --save
+```
+
+## Usage
+
 ```javascript
 var summarize = require('high-summary')
 
