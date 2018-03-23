@@ -1,6 +1,6 @@
 {
   "name": "high-summary",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Retrieve Main title, image and summary for an url",
   "main": "index.js",
   "scripts": {
